@@ -72,9 +72,9 @@ def generate_infographic_content(topic: str) -> dict:
     - For icons, provide ONLY the FontAwesome v6 solid icon class name (e.g., "fa-solid fa-magnifying-glass", "fa-solid fa-check").
     
     The JSON object must have exactly these keys:
-    - "headline": The main bold headline. Short and punchy. Maximum 6 words.
-    - "subheadline": A slightly longer explanation below the headline.
-    - "highlight_text": A short, impactful piece of text (e.g., a quote, a massive statistic, or a strong hook). Max 8 words. Use <br> for line breaks to make it look like a poem or haiku if it's a quote.
+    - "headline": The main bold headline. Short and punchy. STRICT MAXIMUM 5 WORDS.
+    - "subheadline": A slightly longer explanation below the headline. STRICT MAXIMUM 12 WORDS.
+    - "highlight_text": A short, impactful piece of text (e.g., a quote, a massive statistic, or a strong hook). STRICT MAXIMUM 6 WORDS. Use <br> for line breaks to make it look like a poem or haiku if it's a quote.
     - "bullet_1_title": Short title (max 3 words).
     - "bullet_1_text": Short description (max 5 words).
     - "bullet_1_icon": FontAwesome solid class name.
