@@ -12,7 +12,7 @@ def generate_caption(topic: str) -> str:
     
     Requirements:
     - MUST BE STRICTLY UNDER 800 CHARACTERS total length.
-    - Start with a strong Hook (Contrast/Surprise, Specific number, or Pattern interrupt). Example: "75% of resumes never reach a human. Here is why."
+    - Start with a highly creative and engaging Hook. VARY the type of hook for every post (e.g., a bold contrarian claim, a relatable struggle, a surprising fact, a rhetorical question, or a pattern interrupt). DO NOT always start with a percentage or a number. Be smart, unpredictable, and attention-grabbing.
     - DO NOT start with "I" or a brand mention.
     - Structure: [Hook] -> [Line Break] -> [Insight/Body with 2-3 bullet points] -> [Line Break] -> [CTA] -> [Line Break] -> [Hashtags].
     - Be highly specific. Use concrete details and stats in the form of bullet points to explain the insight.
