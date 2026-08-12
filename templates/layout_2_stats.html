@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RankResume Stats Layout</title>
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&family=Caveat:wght@700&display=swap');
+
+        :root {
+            --bg-color: {{ theme.bg_color }};
+            --primary-text: {{ theme.primary_text }};
+            --accent-color: {{ theme.accent_color }};
+            --footer-bg: {{ theme.footer_bg }};
+            --footer-text: {{ theme.footer_text }};
+            --footer-accent: {{ theme.footer_accent }};
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            width: 1200px; height: 630px;
+            background-color: var(--bg-color);
+            font-family: 'Montserrat', sans-serif;
+            display: flex; flex-direction: column;
+        }
+
+        .header { padding: 30px 50px 10px 50px; display: flex; justify-content: space-between; align-items: center;}
+        .brand-name { font-size: 32px; font-weight: 900; color: var(--primary-text); text-transform: uppercase; letter-spacing: -1px; }
+        .brand-name span { color: var(--accent-color); }
+        .badge { background-color: var(--primary-text); color: var(--bg-color); padding: 6px 12px; font-size: 12px; font-weight: 700; text-transform: uppercase; border-radius: 4px; }
+        .badge span { color: var(--accent-color); }
+
+        .main-container {
+            display: flex;
+            flex-grow: 1;
+            padding: 20px 50px;
+        }
+
+        .left-col {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-right: 40px;
+        }
+        
+        .huge-stat {
+            font-size: 80px;
+            font-weight: 900;
+            color: var(--accent-color);
+            line-height: 1;
+            margin-bottom: 20px;
+            font-family: 'Caveat', cursive;
+        }
+
+        .headline { font-size: 46px; font-weight: 900; color: var(--primary-text); line-height: 1.1; text-transform: uppercase; margin-bottom: 20px; }
+        .subheadline { font-size: 20px; color: var(--primary-text); opacity: 0.9; line-height: 1.5; font-weight: 600; }
+
+        .right-col {
+            flex: 1;
+            background-color: var(--footer-bg);
+            color: var(--footer-text);
+            border-radius: 20px;
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .list-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+        }
+
+        .list-icon {
+            font-size: 28px;
+            color: var(--accent-color);
+            width: 40px;
+            text-align: center;
+        }
+
+        .list-text h4 { font-size: 18px; margin-bottom: 5px; text-transform: uppercase; }
+        .list-text p { font-size: 14px; color: var(--footer-accent); line-height: 1.4; }
+
+        .author-bar { background-color: var(--bg-color); padding: 15px 50px; text-align: center; display: flex; justify-content: center; align-items: center; gap: 15px; }
+        .brand-logo-text { font-family: 'Caveat', cursive; font-size: 26px; color: var(--accent-color); font-weight: 700; }
+        .author-bar span { font-family: 'Montserrat', sans-serif; font-size: 12px; color: var(--primary-text); font-weight: 700; letter-spacing: 1px; text-transform: uppercase; }
+        .line { width: 40px; height: 2px; background-color: var(--accent-color); }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="brand-name">RANK<span>RESUME</span></div>
+        <div class="badge">DAILY INSIGHT <span>#{{ edition_number }}</span></div>
+    </div>
+
+    <div class="main-container">
+        <div class="left-col">
+            <div class="huge-stat">{{ highlight_text }}</div>
+            <div class="headline">{{ headline }}</div>
+            <div class="subheadline">{{ subheadline }}</div>
+        </div>
+        <div class="right-col">
+            <div class="list-item">
+                <div class="list-icon"><i class="{{ bullet_1_icon }}"></i></div>
+                <div class="list-text">
+                    <h4>{{ bullet_1_title }}</h4>
+                    <p>{{ bullet_1_text }}</p>
+                </div>
+            </div>
+            <div class="list-item">
+                <div class="list-icon"><i class="{{ bullet_2_icon }}"></i></div>
+                <div class="list-text">
+                    <h4>{{ bullet_2_title }}</h4>
+                    <p>{{ bullet_2_text }}</p>
+                </div>
+            </div>
+            <div class="list-item">
+                <div class="list-icon"><i class="{{ bullet_3_icon }}"></i></div>
+                <div class="list-text">
+                    <h4>{{ bullet_3_title }}</h4>
+                    <p>{{ bullet_3_text }}</p>
+                </div>
+            </div>
+            <div class="list-item">
+                <div class="list-icon"><i class="{{ bullet_4_icon }}"></i></div>
+                <div class="list-text">
+                    <h4>{{ bullet_4_title }}</h4>
+                    <p>{{ bullet_4_text }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="author-bar">
+        <div class="line"></div>
+        <div class="brand-logo-text">RankResume.pro</div>
+        <div class="line"></div>
+        <span>| THE ULTIMATE ATS SCANNER | LAND YOUR DREAM JOB |</span>
+    </div>
+</body>
+</html>

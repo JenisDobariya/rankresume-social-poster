@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RankResume Demo Template</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800;900&family=Caveat:wght@700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            /* This represents the exact size of the final image (e.g. standard Instagram/LinkedIn ratio) */
+            width: 1200px;
+            height: 630px;
+            background-color: #f7f6f2; /* Cream/off-white background */
+            font-family: 'Montserrat', sans-serif;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Top Header */
+        .header {
+            padding: 40px 50px 10px 50px;
+        }
+
+        .brand-name {
+            font-size: 42px;
+            font-weight: 900;
+            color: #0d1b2a; /* Dark Navy */
+            text-transform: uppercase;
+            letter-spacing: -1px;
+        }
+
+        .brand-name span {
+            color: #d4af37; /* Gold */
+        }
+
+        .subtitle {
+            font-size: 20px;
+            color: #333;
+            margin-top: 10px;
+            width: 450px;
+            line-height: 1.4;
+        }
+
+        .badge {
+            display: inline-block;
+            background-color: #0d1b2a;
+            color: white;
+            padding: 8px 16px;
+            font-size: 14px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-top: 20px;
+            border-radius: 4px;
+        }
+
+        .badge span {
+            color: #d4af37;
+        }
+
+        /* Main Content */
+        .main-content {
+            padding: 20px 50px;
+            flex-grow: 1;
+        }
+
+        .headline {
+            font-size: 64px;
+            font-weight: 900;
+            color: #0d1b2a;
+            line-height: 1.1;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            width: 800px;
+        }
+
+        .headline span {
+            color: #d4af37;
+        }
+
+        .subheadline {
+            font-size: 24px;
+            color: #1b263b;
+            width: 600px;
+            line-height: 1.4;
+            font-weight: 600;
+        }
+
+        /* The Bubble */
+        .bubble-container {
+            position: absolute;
+            top: 50px;
+            right: 80px;
+            width: 250px;
+            height: 250px;
+            background-color: transparent;
+            border: 5px solid #0d1b2a;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            transform: rotate(5deg);
+        }
+
+        .bubble-container::after {
+            content: '';
+            position: absolute;
+            bottom: -20px;
+            right: 20px;
+            border-width: 25px 25px 0 0;
+            border-style: solid;
+            border-color: #0d1b2a transparent transparent transparent;
+            transform: rotate(-15deg);
+        }
+
+        .bubble-text {
+            font-family: 'Caveat', cursive;
+            font-size: 32px;
+            color: #0d1b2a;
+            text-align: center;
+            line-height: 1.2;
+        }
+
+        .bubble-text span {
+            color: #d4af37;
+            font-size: 38px;
+        }
+
+        /* Footer Info Bar */
+        .info-bar {
+            background-color: #0d1b2a;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            padding: 25px 50px;
+            align-items: center;
+        }
+
+        .info-item {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .info-icon {
+            font-size: 30px;
+            color: #d4af37;
+        }
+
+        .info-text h4 {
+            font-size: 16px;
+            margin-bottom: 5px;
+            text-transform: uppercase;
+        }
+
+        .info-text p {
+            font-size: 14px;
+            color: #ccc;
+        }
+
+        /* Bottom Author Bar */
+        .author-bar {
+            background-color: #fff;
+            padding: 15px 50px;
+            text-align: center;
+            font-family: 'Caveat', cursive;
+            font-size: 24px;
+            color: #d4af37;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .author-bar span {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 12px;
+            color: #666;
+            font-weight: 700;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        .line {
+            width: 50px;
+            height: 1px;
+            background-color: #d4af37;
+        }
+
+        /* Decorative Elements */
+        .decor-circle {
+            position: absolute;
+            bottom: 150px;
+            right: -50px;
+            width: 300px;
+            height: 300px;
+            background-color: rgba(212, 175, 55, 0.1);
+            border-radius: 50%;
+            z-index: 0;
+        }
+
+        .main-content, .header, .bubble-container {
+            z-index: 10;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="decor-circle"></div>
+
+    <!-- Header Section -->
+    <div class="header">
+        <div class="brand-name">RANK<span>RESUME</span></div>
+        <div class="subtitle">Practical career guidance and ATS optimization insights for job seekers.</div>
+        <div class="badge">DAILY INSIGHT <span>#10</span></div>
+    </div>
+
+    <!-- Speech Bubble (The Hook) -->
+    <div class="bubble-container">
+        <div class="bubble-text">
+            I APPLY.<br>
+            I WAIT.<br>
+            <span>NOTHING.</span>
+        </div>
+    </div>
+
+    <!-- Main Headline -->
+    <div class="main-content">
+        <div class="headline">
+            QUALIFIED.<br>
+            EXPERIENCED.<br>
+            <span>STILL NO INTERVIEWS?</span>
+        </div>
+        <div class="subheadline">
+            The real reasons highly qualified candidates get rejected by the ATS (and how to fix it today).
+        </div>
+    </div>
+
+    <!-- 4 Bullet Points Footer -->
+    <div class="info-bar">
+        <div class="info-item">
+            <div class="info-icon">🔍</div>
+            <div class="info-text">
+                <h4>5 HIDDEN REASONS</h4>
+                <p>Why qualified candidates<br>get overlooked</p>
+            </div>
+        </div>
+        <div class="info-item">
+            <div class="info-icon">⏱️</div>
+            <div class="info-text">
+                <h4>10-SECOND TEST</h4>
+                <p>Scan your resume<br>to try today</p>
+            </div>
+        </div>
+        <div class="info-item">
+            <div class="info-icon">🎯</div>
+            <div class="info-text">
+                <h4>POSITIONING TIPS</h4>
+                <p>That make recruiters<br>see your true value</p>
+            </div>
+        </div>
+        <div class="info-item">
+            <div class="info-icon">📄</div>
+            <div class="info-text">
+                <h4>ATS ALIGNMENT</h4>
+                <p>Formatting tricks<br>that get results</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Author/Brand Footer -->
+    <div class="author-bar">
+        <div class="line"></div>
+        By RankResume.pro
+        <div class="line"></div>
+        <span>| THE ULTIMATE ATS SCANNER | LAND YOUR DREAM JOB |</span>
+    </div>
+
+</body>
+</html>
