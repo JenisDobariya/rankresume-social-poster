@@ -13,8 +13,6 @@ async def send_to_telegram(image_path: str, caption: str):
     if not bot_token or not chat_id:
         raise ValueError("TELEGRAM_BOT_TOKEN or TELEGRAM_CHAT_ID not found in environment.")
         
-    bot = Bot(token=bot_token)
-    
     print(f"Sending to Telegram chat: {chat_id}...")
     
     # Telegram captions have a strict 1024 character limit for photos
@@ -23,12 +21,13 @@ async def send_to_telegram(image_path: str, caption: str):
         caption = caption[:1021] + "..."
     
     # Send photo using async with python-telegram-bot v20+
-    with open(image_path, "rb") as photo:
-        await bot.send_photo(
-            chat_id=chat_id,
-            photo=photo,
-            caption=caption
-        )
+    async with Bot(token=bot_token) as bot:
+        with open(image_path, "rb") as photo:
+            await bot.send_photo(
+                chat_id=chat_id,
+                photo=photo,
+                caption=caption
+            )
     print("Successfully sent to Telegram.")
 
 if __name__ == "__main__":
