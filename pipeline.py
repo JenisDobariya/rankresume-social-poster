@@ -1,6 +1,11 @@
 import asyncio
 import os
 import sys
+
+# Ensure stdout uses UTF-8 to prevent charmap errors on Windows
+if sys.stdout.encoding.lower() != 'utf-8':
+    sys.stdout.reconfigure(encoding='utf-8')
+
 from datetime import datetime
 import traceback
 
@@ -10,7 +15,7 @@ from caption_gen import generate_caption
 from telegram_sender import send_to_telegram
 
 async def run_daily_pipeline():
-    print("--- Starting RankResume.pro Daily Content Pipeline ---")
+    print("--- Starting RankResume.pro Daily Content Pipeline for ---")
     
     try:
         # Step 1: Select Topic

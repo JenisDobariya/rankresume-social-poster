@@ -25,10 +25,10 @@ def generate_caption(topic: str) -> str:
     client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
     
     response = client.chat.completions.create(
-        model="llama-3.3-70b-versatile",
+        model="openai/gpt-oss-120b",
         messages=[{"role": "user", "content": prompt}],
         temperature=0.7,
-        max_tokens=300
+        max_tokens=2000
     )
     
     caption = response.choices[0].message.content.strip()
