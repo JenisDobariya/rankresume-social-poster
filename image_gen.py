@@ -62,11 +62,21 @@ def get_edition_number() -> int:
 
 def generate_infographic_content(topic: str) -> dict:
     """Uses Groq to generate structured JSON for the infographic based on the topic."""
+    import random
+    tones = [
+        "Data-driven & Shocking (use hard numbers and percentages)",
+        "Direct & Actionable (no fluff, step-by-step instructions)",
+        "Myth-busting (challenging conventional wisdom)",
+        "Inspirational & Success-focused (focusing on landing the dream job)"
+    ]
+    selected_tone = random.choice(tones)
+
     prompt = f"""
     You are an expert copywriter and UI/UX designer for RankResume.pro.
     I need structured content for a highly professional social media infographic about: "{topic}"
     
     Requirements:
+    - Target Tone for Copy: {selected_tone}
     - Return ONLY a valid JSON object.
     - Make the copy extremely compelling and specific.
     - For icons, provide ONLY the FontAwesome v6 solid icon class name (e.g., "fa-solid fa-magnifying-glass", "fa-solid fa-check").

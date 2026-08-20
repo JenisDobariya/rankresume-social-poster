@@ -25,15 +25,25 @@ def select_topic():
     history = load_history()
     used_topics = [item.get("topic", "") for item in history]
     
+    import random
+    angles = [
+        "Unconventional Job Search Hack (something counter-intuitive)",
+        "Deep Dive into ATS Algorithms (technical but accessible)",
+        "Common Resume Mistakes that Cost Interviews (tough love)",
+        "Industry-Specific Resume Optimization (e.g. tech, finance, design)",
+        "Emerging Trends in Hiring (what top companies are doing right now)"
+    ]
+    selected_angle = random.choice(angles)
+    
     prompt = f"""
     You are an expert social media manager for RankResume.pro, a platform for ATS-friendly resumes and job hunting.
     I need a fresh, engaging topic for a daily social media post.
     
-    Previous topics already used: {used_topics}
+    Previous topics already used (DO NOT USE THESE): {used_topics}
     
     Requirements:
-    - Pick a completely new topic or a unique sub-angle related to: improving ATS scores, resume building tips and tricks, job hunting strategies, or how specific top companies (e.g., Google, Amazon, fast-growing startups) hire.
-    - The topic must be highly engaging and designed to attract job seekers.
+    - Pick a completely new topic focusing on this specific angle: {selected_angle}
+    - The topic must be highly engaging, designed to attract job seekers, and stand out on LinkedIn/Instagram.
     - Return ONLY the topic in a single line, nothing else. No quotes, no explanations.
     """
 

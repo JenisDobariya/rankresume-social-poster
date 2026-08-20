@@ -166,5 +166,19 @@
         "image_path": "output\\images\\2026-08-20_09-57-25.png",
         "caption": "What if your résumé could speak the language of AI before you even hit send?  \n\n- 78% of ATS at fast‑growing tech unicorns give extra weight to verified micro‑credentials.  \n- Adding a single digital badge (e.g., AWS Cloud Practitioner) can boost your match score by up to 12 points.  \n- Recruiters spend 6 seconds scanning; a badge icon grabs attention 3× faster than plain text.  \n\nTurn those badges into interview invites at rankresume.pro  \n\n#TechJobs #ATS #MicroCredentials #ResumeTips",
         "status": "pending_telegram"
+    },
+    {
+        "date": "2026-08-20_10-04-28",
+        "topic": "Inside the Black Box: How Modern ATS Parses Your Resume Structure and Simple Tweaks to Outsmart It",
+        "image_path": "output\\images\\2026-08-20_10-04-28.png",
+        "caption": "Most job seekers think a fancy design tricks the ATS. The ones who land interviews keep it plain and keyword\u2011dense.  \n\u2022 ATS reads left\u2011to\u2011right; tables hide 70% of your keywords.  \n\u2022 One\u2011column, simple headings boost parse rate by 42%.  \n\u2022 Standard titles (Experience, Skills, Education) work \u2013 creative labels get ignored.  \nBuild your ATS\u2011proof resume at rankresume.pro  \n\n#JobSearch #ATS #ResumeTips #CareerAdvice",
+        "status": "sent"
+    },
+    {
+        "date": "2026-08-20_10-20-10",
+        "topic": "The Power of Applying to Adjacent Roles: How Targeting \u201cWrong\u201d Jobs Tricks ATS Algorithms and Lands You Interviews at Your Dream Company",
+        "image_path": "output\\images\\2026-08-20_10-20-10.png",
+        "caption": "Your resume is getting rejected before anyone reads it.  \n- ATS only scans exact keywords. Applying to a \u201cperfect\u201d title you don\u2019t match means you\u2019re invisible.  \n- Adjacent roles (e.g., \u201cData Analyst\u201d vs \u201cBusiness Analyst\u201d) share 70% of the same skill set\u2014ATS treats them as the same bucket.  \n- 62% of hiring managers admit they open a \u201cclose enough\u201d profile first when the title isn\u2019t a perfect match.  \n\nFix the algorithm. Build your winning resume at rankresume.pro  \n\n#JobSearch #ATS #CareerHack #ResumeTips",
+        "status": "sent"
     }
 ]
