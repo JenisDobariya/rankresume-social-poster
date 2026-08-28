@@ -222,5 +222,12 @@
         "image_path": "output/images/2026-08-27_15-58-01.png",
         "caption": "",
         "status": "sent"
+    },
+    {
+        "date": "2026-08-28_16-58-49",
+        "topic": "How to Craft a Data\u2011Science Resume That Speaks the Language of AI Recruiters and Beats Their ATS Every Time",
+        "image_path": "output/images/2026-08-28_16-58-49.png",
+        "caption": "Your resume is getting rejected before anyone reads it.  \n\ud83d\udd39 AI recruiters scan for exact keywords \u2013 \u201cPython\u201d, \u201cTensorFlow\u201d, \u201cSQL\u201d. Drop vague phrases like \u201cteam player.\u201d  \n\ud83d\udd39 ATS scores show only 62% of resumes pass the filter. Use a clean .docx or PDF with standard headings.  \n\ud83d\udd39 Quantify impact: \u201cBoosted model F1\u2011score 14% on 200K records\u201d beats \u201cworked on models.\u201d  \n\nBuild a resume that passes every AI filter at rankresume.pro  \n\n#DataScienceJobs #ResumeTips #ATS #JobSearch",
+        "status": "sent"
     }
 ]
