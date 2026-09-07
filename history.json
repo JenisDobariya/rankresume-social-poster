@@ -285,5 +285,12 @@
         "image_path": "output/images/2026-09-06_09-01-13.png",
         "caption": "75% of finance resumes never see a human recruiter\u2014ATS blocks them before they even get a glance.\n\n- Quant metrics like \u03b1, \u03b2, Sharpe Ratio get stripped if not in plain text; ATS reads only alphanumeric strings.  \n- Keywords such as \u201crisk modeling\u201d, \u201cPython\u201d, \u201cMonte Carlo\u201d must appear in the first\u202f100 words or they\u2019re ignored.  \n- A single 1\u2011page, keyword\u2011rich summary boosts interview odds by 42%.\n\nTurn those numbers into interview calls at rankresume.pro  \n\n#FinanceJobs #ResumeTips #ATS #HedgeFund #FinTech",
         "status": "sent"
+    },
+    {
+        "date": "2026-09-07_09-49-19",
+        "topic": "The Evolution of ATS: From Rule\u2011Based Parsing to Deep Learning \u2013 What Job Seekers Need to Know to Stay Ahead",
+        "image_path": "output/images/2026-09-07_09-49-19.png",
+        "caption": "75% of resumes never see a human eye. Here\u2019s why the ATS game changed.  \n\n- Pre\u20112020 ATS used keyword trees \u2013 miss synonyms, 40% of qualified candidates get filtered.  \n- 2023+ AI\u2011driven parsers read context, rank skills by relevance \u2013 \u201cteam player\u201d alone won\u2019t cut it.  \n- Action: embed exact role\u2011specific phrases, add measurable results, and use a clean, sectioned layout.  \n\nBuild your winning resume at rankresume.pro  \n\n#JobSearch #ATS #ResumeTips #AIRecruiting",
+        "status": "sent"
     }
 ]
