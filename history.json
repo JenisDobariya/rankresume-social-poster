@@ -446,5 +446,12 @@
         "image_path": "output/images/2026-09-29_10-57-58.png",
         "caption": "",
         "status": "sent"
+    },
+    {
+        "date": "2026-09-30_10-48-16",
+        "topic": "The Anatomy of an ATS Score: How Keywords, Formatting, and Context Are Weighted in 2024 and What You Can Change in Minutes",
+        "image_path": "output/images/2026-09-30_10-48-16.png",
+        "caption": "Your resume is getting rejected before anyone even reads it.  \n\n- Keywords = 40% of the score. Miss one core skill and you lose 10+ points.  \n- Fancy fonts & tables = instant penalty. Use Arial/Calibri, 10\u201112pt, simple headings.  \n- Context matters: embed keywords in achievements, not just a list, to boost the other 30%.  \n\nRevamp your resume in minutes at rankresume.pro  \n\n#JobSearch #ATS #ResumeTips #CareerGrowth",
+        "status": "sent"
     }
 ]
