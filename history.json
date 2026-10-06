@@ -488,5 +488,12 @@
         "image_path": "output/images/2026-10-05_11-54-55.png",
         "caption": "I sent 47 applications. Only 2 replies. Then I tried a tiny demo.  \n\n- Built a 2\u2011minute demo using the company\u2019s public API, showing real data I could move.  \n- Wrapped it in a r\u00e9sum\u00e9\u2011style PDF and emailed it directly to the hiring manager.  \n- Response? An interview call in 24\u202fhours and a job offer after 2 weeks.  \n\nCreate your own showcase and stand out at rankresume.pro  \n\n#JobSearch #ATSFree #ResumeHack #CareerBoost",
         "status": "sent"
+    },
+    {
+        "date": "2026-10-06_11-35-05",
+        "topic": "Inside the Black Box: How Modern ATS Uses Vector Embeddings to Match Your Resume to Job Descriptions\u2014and 3 Simple Tweaks to Speak Its Language",
+        "image_path": "output/images/2026-10-06_11-35-05.png",
+        "caption": "Your resume is getting tossed by the ATS before a human even sees it.  \n\n- Modern ATS turns your resume and the job posting into 300\u2011dimensional vectors; drop below a ~0.78 cosine similarity and you\u2019re out.  \n- Mirror the exact phrasing of 3\u20115 core skills from the posting \u2013 exact matches score\u202f2\u00d7 higher than synonyms.  \n- Add a \u201cKey Competencies\u201d section with concise, keyword\u2011rich bullets; it can boost the embedding signal by up to\u202f40%.  \n\nFix the math and get past the black box. Build your ATS\u2011proof resume at rankresume.pro  \n\n#JobSearch #ATS #ResumeTips #CareerAdvice",
+        "status": "sent"
     }
 ]
