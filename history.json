@@ -600,5 +600,12 @@
         "image_path": "output/images/2026-10-21_09-43-59.png",
         "caption": "",
         "status": "sent"
+    },
+    {
+        "date": "2026-10-22_09-43-30",
+        "topic": "Cracking the Transformer\u2011Powered ATS: How Modern Resume Parsers Use Language Models and 5 Simple Hacks to Boost Your Match Score",
+        "image_path": "output/images/2026-10-22_09-43-30.png",
+        "caption": "Most job seekers think stuffing keywords into a resume will beat the AI. The ones who actually land interviews let the transformer do the talking.  \n\n- Today\u2019s ATS run on GPT\u2011style models that score context, not just keyword count.  \n- 73% of resumes get tossed because they use generic phrasing that confuses the parser.  \n- Write a crisp, action\u2011first summary, mirror the job\u2019s verb tense, and add one quantifiable win in the first line to boost your match score by up to\u202f27%.  \n\nBuild a transformer\u2011proof resume at rankresume.pro and start getting interview invites.  \n\n#ResumeTips #ATS #JobSearch #AIResume #CareerGrowth",
+        "status": "sent"
     }
 ]
