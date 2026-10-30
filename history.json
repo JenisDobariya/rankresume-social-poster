@@ -656,5 +656,12 @@
         "image_path": "output/images/2026-10-29_11-10-19.png",
         "caption": "",
         "status": "sent"
+    },
+    {
+        "date": "2026-10-30_11-04-55",
+        "topic": "Continuous Talent Pipelines: How Top Companies Use AI\u2011Monitored Skill Growth to Promote Candidates Before a Job Opens",
+        "image_path": "output/images/2026-10-30_11-04-55.png",
+        "caption": "Your resume is getting rejected before anyone reads it.\n\n- Top firms monitor 1,200+ skill signals per employee with AI and pre\u2011hire candidates who hit the growth curve.  \n- 68% of 2023 hires came from internal talent pipelines, not posted jobs.  \n- An ATS score under 80 means the algorithm shelves you forever.\n\nFix your ATS score and get on the pipeline at rankresume.pro  \n\n#JobSearch #AIRecruiting #CareerGrowth #ResumeTips",
+        "status": "sent"
     }
 ]
