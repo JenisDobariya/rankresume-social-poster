@@ -852,5 +852,12 @@
         "image_path": "output/images/2026-11-27_14-29-25.png",
         "caption": "\u26a1 75% of resumes never see a human recruiter\u2014ATS bots decide the fate first.  \n\n- Explainable AI gives each resume a 0\u2011100 score based on keyword match, format readability, and impact metrics.  \n- 4 moves to boost your",
         "status": "sent"
+    },
+    {
+        "date": "2026-11-28_13-45-25",
+        "topic": "From Text to Tensor: How ATS Turns Your Resume Into a Machine\u2011Learning Model and 4 Practical Steps to Optimize It",
+        "image_path": "output/images/2026-11-28_13-45-25.png",
+        "caption": "75% of resumes never see a human recruiter. Here\u2019s why the ATS turns yours into a machine\u2011learning model\u2014and how to beat it.  \n\n\u2022 Mirror exact keywords from the job posting & keep verb tense consistent \u2013 the ATS tokenizes literal words.  \n\u2022 Use a clean, plain\u2011text layout (no tables/graphics), then add a quantified achievements line & a dedicated skills matrix \u2013 gives the model clear, rankable data.  \n\nBuild a recruiter\u2011ready, ATS\u2011proof resume at rankresume.pro  \n\n#JobSearch #ATS #ResumeTips #CareerGrowth",
+        "status": "sent"
     }
 ]
